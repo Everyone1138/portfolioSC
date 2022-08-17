@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+  }
+  /* below are the assigned colors for uniformity*/
+  :root {
+    --firstColor: rgb(0, 0, 0);
+    --secondColor: rgb(247, 216, 226);
+    --thirdColor: rgba(49, 52, 61, 1);
+    --fourthColor: rgb(56, 100, 194);
+    --dark: rgb(28, 29, 34);
+    --light: rgba(238, 238, 247, 1);
+  }
+  /* below is the css for the big image on the main page*/
+  .hero {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./sanfrancisco.JPG");
+    background-size: cover;
+    background-position: center;
+}
+  /* below is the css for the main page*/
+  body {
+    margin: 10;
+    padding: 50;
+    font-family: 'Consolas','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    color: var(--firstColor);
+    background-color: var(--light);
+    line-height: 1.5;
+  }
+  
+ header {
+    padding: 20px 6% 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: right;
+    background-color: var(--thirdColor);  
+  }
+
+  .header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 30px;
+}
+
+header h1, h2, h3, h4 {
+  color: var(--thirdColor);
+  background-color: var(--secondColor);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px 6% 5px 6%;
+  margin: 0;
+  font-size: 5vw;
+  line-height: 1;
+}
+
+h5 {
+  color: var(--secondColor);
+  background-color: var(--fourthColor);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px 6% 5px 6%;
+  margin: 0;
+  font-size: 3vw;
+  line-height: 1;
+}
+
+  /* below is the css for a, p, and the defined float actions*/
+a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    margin: 1;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+.About {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--secondColor);
+    color: var(--thirdColor);
+}
+
+
+.work {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* below is the css for the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h4 {
+    
+    font-size: 20px;
+}
+
+  /* below is the css for the contact address and a*/
+
+.contact address {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .contact address a {
+    color: var(--thirdColor);
+    padding: 5px;
+    font-size: 1.3rem;
+    font-style: normal;
+    background-image: linear-gradient(270deg, var(--firstColor) 0%, var(--firstColor) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+
+
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
