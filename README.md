@@ -23,7 +23,7 @@ I've also added clickable links to my GitHub and GitLab so that the user can see
 
 ## Screenshots of my site!
 
-![These are screenshots of my site.](<./assests/Screenshot (8).png.png>)
+![These are screenshots of my site.](<./assests/Screenshot (8).png>)
 ![These are screenshots of my site.](<./assests/Screenshot (7).png>)
 
 ## HTML
