@@ -120,7 +120,8 @@ p {
 
 .contact address {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: column wrap;
+    background-image: url("./image_67223041.JPG");
     justify-content: space-around;
     align-items: center;
     height: 100%;
@@ -132,6 +133,7 @@ p {
     font-size: 1.3rem;
     font-style: normal;
     background-image: linear-gradient(270deg, var(--firstColor) 0%, var(--firstColor) 100%);
+    
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: bottom;
