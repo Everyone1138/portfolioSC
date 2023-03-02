@@ -13,6 +13,8 @@
 
 * [JavaScript](#javascript)
 
+* [CSS](#css)
+
 * [Questions](#questions)
 
 
@@ -42,8 +44,9 @@ I've also added clickable links to my GitHub and GitLab so that the user can see
 
 ## Screenshots of my site!
 
-![These are screenshots of my site.](<./assests/Screenshot (8).png>)
-![These are screenshots of my site.](<./assests/Screenshot (7).png>)
+![This is a screenshot of my site.](<./assests/Screenshot (3).png>)
+
+
 
 ## HTML
 
